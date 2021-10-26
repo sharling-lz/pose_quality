@@ -74,7 +74,7 @@ The code is developed using python 3.6 on Ubuntu 16.04. NVIDIA GPUs are needed. 
    └── requirements.txt
    ```
 
-6. Download pretrained models from our model zoo([GoogleDrive])(https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing)
+6. Download pretrained models from our model zoo([GoogleDrive])(https://drive.google.com/drive/folders/1Fxpn-phF3M7TStuxDqfNJ0Bpdb1JwHJP?usp=sharing)
    ```
    ${POSE_ROOT}
     `-- models
@@ -119,7 +119,7 @@ ${POSE_ROOT}
 ```
 
 ### Training and Testing
-#### Testing on COCO val2017 dataset using model zoo's models([GoogleDrive](https://drive.google.com/drive/folders/1hOTihvbyIxsm5ygDpbUuJ7O_tzv4oXjC?usp=sharing) )
+#### Testing on COCO val2017 dataset using model zoo's models([GoogleDrive](https://drive.google.com/drive/folders/1Fxpn-phF3M7TStuxDqfNJ0Bpdb1JwHJP?usp=sharing) )
  
 
 ```
