@@ -1,7 +1,7 @@
 # Learning to Acquire the Quality of Human Pose Estimation
 
 ## Introduction
-This is an official pytorch implementation of [*Learning to Acquire the Quality of Human Pose Estimation*]. 
+This is an official pytorch implementation of [*Learning to Acquire the Quality of Human Pose Estimation*](https://ieeexplore.ieee.org/abstract/document/9127514). 
 In this work, we propose end-to-end human pose quality learning, which adds a quality prediction block alongside pose regression. The proposed block learns the object keypoint similarity (OKS) between the estimated pose and its corresponding ground truth by sharing the pose features with heatmap regression. Utilizing the learned quality as pose score improves pose estimation performance during COCO AP evaluation.</br>
 
 <img src="/figures/oks-net.jpg" width = "400" alt="Illustrating the architecture of the proposed OKS-Net" align=center />
