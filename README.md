@@ -4,7 +4,8 @@
 This is an official pytorch implementation of [*Learning to Acquire the Quality of Human Pose Estimation*]. 
 In this work, we propose end-to-end human pose quality learning, which adds a quality prediction block alongside pose regression. The proposed block learns the object keypoint similarity (OKS) between the estimated pose and its corresponding ground truth by sharing the pose features with heatmap regression. Utilizing the learned quality as pose score improves pose estimation performance during COCO AP evaluation.</br>
 
-<img src="/figures/oks-net.jpg" width = "300" height = "200" alt="Illustrating the architecture of the proposed OKS-Net" align=center />
+<img src="/figures/oks-net.jpg" width = "400" alt="Illustrating the architecture of the proposed OKS-Net" align=center />
+
 ## Main Results
 ### Results on COCO val2017 with ground truth bounding box
 | Arch               | Input size |    AP | Ap .5 | AP .75 | AP (M) | AP (L) |
